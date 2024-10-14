@@ -120,10 +120,10 @@ final class UIKitComponentShowCaseViewController: UIViewController {
         verticalStackView.addArrangedSubview(displayButton)
         verticalStackView.addArrangedSubview(swiftUIButton)
         
-        displayButton.setCenterXAnchor(equalTo: verticalStackView.centerXAnchor, constant: 0)
+        displayButton.setCenterXAnchor(equalTo: view.centerXAnchor, constant: 0)
         
         verticalStackView.setCustomSpacing(Spacing.xLarge, after: displayButton)
-        swiftUIButton.setCenterXAnchor(equalTo: verticalStackView.centerXAnchor, constant: 0)
+        swiftUIButton.setCenterXAnchor(equalTo: view.centerXAnchor, constant: 0)
     }
 
     @objc func presentToastMessage() {

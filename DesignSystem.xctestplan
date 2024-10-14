@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "6DF0A29C-1F62-4679-80A0-8E98D4480897",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DesignSystem.xcodeproj",
+      "identifier" : "BFACD8A02CB4194200CF3FB2",
+      "name" : "DesignSystem"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:DesignSystem.xcodeproj",
+        "identifier" : "BFACD8B62CB4194300CF3FB2",
+        "name" : "DesignSystemTests"
+      }
+    }
+  ],
+  "version" : 1
+}
